@@ -31,6 +31,47 @@ export default function OrganisationPage() {
         imageFit="contain"
       />
       <LeadershipSection />
+      <section className="section-shell">
+        <SectionHeading
+          eyebrow="Bureau exécutif"
+          title="Tous les membres du bureau peuvent être administrés depuis un seul fichier JSON"
+          description="Cette grille reprend les membres déclarés dans la source de données de gouvernance. Il suffit d’y renseigner le nom, le titre, le poste, la description et l’image."
+        />
+        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {governance.bureauMembers.map((member) => (
+            <article
+              key={`${member.position}-${member.name}-organisation`}
+              className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
+            >
+              <div className="relative h-72 bg-surface p-4">
+                {member.image ? (
+                  <Image src={member.image} alt={member.name} fill className="object-contain" />
+                ) : (
+                  <div className="flex h-full items-center justify-center">
+                    <Image
+                      src="/images/logo/pig-embleme-or.jpg"
+                      alt="Emblème de la P.I.G en attente du portrait officiel"
+                      width={124}
+                      height={106}
+                      className="h-auto w-28 object-contain opacity-90"
+                    />
+                  </div>
+                )}
+              </div>
+              <div className="p-6">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary">
+                  {member.title}
+                </p>
+                <h2 className="mt-2 font-display text-2xl font-semibold text-ink">
+                  {member.name}
+                </h2>
+                <p className="mt-1 text-sm font-medium text-ink">{member.position}</p>
+                <p className="mt-4 leading-7 text-muted">{member.description}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
       <OrgChartSection />
       <TimelineSection />
       <section className="section-shell">

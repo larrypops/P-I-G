@@ -22,32 +22,66 @@ export function LeadershipSection() {
           </div>
         </div>
         <div className="grid gap-6">
-          {governance.leadership.map((leader) => (
+          {governance.directionGeneral.map((leader) => (
             <article
-              key={leader.name}
-              className="rounded-[2rem] border border-border bg-white p-7 shadow-soft"
+              key={`${leader.position}-${leader.name}`}
+              className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
             >
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
-                {leader.role}
-              </p>
-              <h3 className="mt-3 font-display text-3xl font-semibold text-ink">
-                {leader.name}
-              </h3>
-              <p className="mt-4 leading-7 text-muted">{leader.description}</p>
+              <div className="grid gap-6 p-7 md:grid-cols-[10rem_1fr] md:items-center">
+                <div className="relative h-48 overflow-hidden rounded-[1.5rem] border border-border bg-surface">
+                  {leader.image ? (
+                    <Image
+                      src={leader.image}
+                      alt={leader.name}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-full items-center justify-center p-5">
+                      <Image
+                        src="/images/logo/pig-embleme-or.jpg"
+                        alt="Emblème de la P.I.G en attente du portrait officiel"
+                        width={110}
+                        height={94}
+                        className="h-auto w-24 object-contain opacity-90"
+                      />
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
+                    {leader.title}
+                  </p>
+                  <h3 className="mt-2 font-display text-3xl font-semibold text-ink">
+                    {leader.name}
+                  </h3>
+                  <p className="mt-2 text-base font-medium text-ink">{leader.position}</p>
+                  <p className="mt-4 leading-7 text-muted">{leader.description}</p>
+                </div>
+              </div>
             </article>
           ))}
           <article className="rounded-[2rem] border border-border bg-surface p-7">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
               Bureau exécutif
             </p>
-            <div className="mt-5 grid gap-3 sm:grid-cols-2">
-              {governance.executiveOffice.map((item) => (
-                <p
-                  key={item}
-                  className="rounded-2xl border border-border bg-white px-4 py-3 text-sm text-ink"
+            <p className="mt-3 leading-7 text-muted">
+              Les membres du bureau sont définis dans le fichier JSON de gouvernance et
+              peuvent être complétés avec leur nom, leur poste, leur description et leur photo.
+            </p>
+            <div className="mt-5 grid gap-4 sm:grid-cols-2">
+              {governance.bureauMembers.map((member) => (
+                <article
+                  key={`${member.position}-${member.name}`}
+                  className="rounded-2xl border border-border bg-white p-4"
                 >
-                  {item}
-                </p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary">
+                    {member.title}
+                  </p>
+                  <h4 className="mt-2 text-base font-semibold text-ink">{member.name}</h4>
+                  <p className="mt-1 text-sm font-medium text-ink">{member.position}</p>
+                  <p className="mt-2 text-sm leading-6 text-muted">{member.description}</p>
+                </article>
               ))}
             </div>
           </article>

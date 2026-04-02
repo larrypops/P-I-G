@@ -1,0 +1,170 @@
+{
+  "slogan": "Une organisation active et responsable",
+  "directionGeneral": [
+    {
+      "name": "Hon Dr TAPE DZUDIE JEAN MARIE",
+      "title": "Direction générale",
+      "position": "Haut Commissaire Général",
+      "description": "Assure la conduite stratégique, la représentation institutionnelle et l’orientation générale de la P.I.G.",
+      "image": null,
+      "featured": true
+    },
+    {
+      "name": "MEHOUNE NKONO HONORÉ",
+      "title": "Direction générale",
+      "position": "Vice Haut Commissaire Général",
+      "description": "Appuie la direction générale et le déploiement des priorités opérationnelles et pluridisciplinaires.",
+      "image": null,
+      "featured": true
+    }
+  ],
+  "bureauMembers": [
+    {
+      "name": "Hon Dr TAPE DZUDIE JEAN MARIE",
+      "title": "Bureau exécutif",
+      "position": "Haut Commissaire Général",
+      "description": "Pilotage stratégique et représentation institutionnelle.",
+      "image": null
+    },
+    {
+      "name": "MEHOUNE NKONO HONORÉ",
+      "title": "Bureau exécutif",
+      "position": "Vice Haut Commissaire Général",
+      "description": "Appui opérationnel et coordination pluridisciplinaire.",
+      "image": null
+    },
+    {
+      "name": "À définir",
+      "title": "Bureau exécutif",
+      "position": "Secrétaire Général",
+      "description": "Coordination administrative et suivi des dossiers institutionnels.",
+      "image": null
+    },
+    {
+      "name": "À définir",
+      "title": "Bureau exécutif",
+      "position": "Adjoint au Secrétaire Général",
+      "description": "Appui à la coordination administrative et aux opérations de suivi.",
+      "image": null
+    },
+    {
+      "name": "À définir",
+      "title": "Bureau exécutif",
+      "position": "Trésorier Général",
+      "description": "Supervision financière et traçabilité de gestion.",
+      "image": null
+    },
+    {
+      "name": "À définir",
+      "title": "Bureau exécutif",
+      "position": "Commissaire aux comptes",
+      "description": "Contrôle et conformité des procédures financières.",
+      "image": null
+    },
+    {
+      "name": "À définir",
+      "title": "Bureau exécutif",
+      "position": "Commissaire aux comptes",
+      "description": "Vérification, audit interne et suivi de conformité.",
+      "image": null
+    },
+    {
+      "name": "À définir",
+      "title": "Bureau exécutif",
+      "position": "Chargé de la communication",
+      "description": "Pilotage de la communication institutionnelle.",
+      "image": null
+    },
+    {
+      "name": "YAKER EKALL Simone Daniella",
+      "title": "Bureau exécutif",
+      "position": "Chargée des relations publiques",
+      "description": "Interface de contact, d’image institutionnelle et de relations publiques.",
+      "image": "/images/contacts/chargee-relations-publiques-simone-daniella-yaker.jpg"
+    }
+  ],
+  "organs": [
+    "Assemblée Générale",
+    "Conseil d’Administration",
+    "Bureau Exécutif",
+    "Cour Arbitrale de Justice",
+    "Conseil des Officiers"
+  ],
+  "specializedOrgans": [
+    "Conseil de la Police Technique et Scientifique",
+    "Conseil des Droits de l’Homme",
+    "Conseil de la Lutte contre la Corruption",
+    "Conseil de la Protection des Consommateurs"
+  ],
+  "departments": [
+    {
+      "title": "Département des Droits de l’Homme",
+      "services": [
+        "Service d’enquête et d’investigation",
+        "Service de documentation et de recherche",
+        "Service de formation et de sensibilisation"
+      ]
+    },
+    {
+      "title": "Département de la Lutte contre la Corruption",
+      "services": [
+        "Service d’enquête et d’investigation",
+        "Service de prévention et de formation"
+      ]
+    },
+    {
+      "title": "Département de la Protection des Consommateurs",
+      "services": [
+        "Service de contrôle des produits alimentaires et pharmaceutiques",
+        "Service de protection des consommateurs"
+      ]
+    },
+    {
+      "title": "Département des Opérations de Secours",
+      "services": [
+        "Service de secours en cas de catastrophes",
+        "Service de maintien de la paix"
+      ]
+    },
+    {
+      "title": "Département de l’Arbitrage et de la Médiation",
+      "services": ["Service d’arbitrage et de médiation"]
+    }
+  ],
+  "hierarchy": [
+    {
+      "title": "Officiers supérieurs",
+      "items": ["Commissaires", "Inspecteurs généraux", "Inspecteurs spéciaux", "Jurés maîtres"]
+    },
+    {
+      "title": "Officiers",
+      "items": ["Aspirants d’intervention", "Chefs de brigade d’intervention"]
+    },
+    {
+      "title": "Sous-officiers",
+      "items": ["Brigadiers principaux", "Brigadiers 2e grade", "Brigadiers 1er grade"]
+    },
+    {
+      "title": "Hommes de rang",
+      "items": [
+        "Préposés d’intervention 2e grade",
+        "Préposés d’intervention 1er grade",
+        "Stagiaires officiers",
+        "Stagiaires sous-officiers",
+        "Stagiaires hommes de rang"
+      ]
+    }
+  ],
+  "territorialRepresentation": [
+    {
+      "name": "Commissaire JOMGANG NGONGO Jean Paul",
+      "role": "Délégué régional de l’Ouest",
+      "image": "/images/organisation/delegue-regional-ouest-jean-paul-jomgang.jpg"
+    },
+    {
+      "name": "Commissaire MOGOUE Fabrice Eclador",
+      "role": "Délégué régional du Littoral",
+      "image": "/images/organisation/delegue-regional-littoral-fabrice-mogoue.jpg"
+    }
+  ]
+}
