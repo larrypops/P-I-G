@@ -22,9 +22,10 @@ export default function ContactPage() {
         ]}
       />
       <ImageBanner
-        image="/images/contacts/chargee-relations-publiques-simone-daniella-yaker.jpg"
+        image="/images/actualites/reunion-strategique-2025-2.jpg"
         title="Contacts institutionnels et bureaux de référence"
         description="Une page de contact rassurante et claire, structurée autour des bureaux, de la direction générale et des canaux disponibles."
+        imageFit="cover"
       />
       <ContactCards />
       <section className="section-shell">
@@ -77,12 +78,12 @@ export default function ContactPage() {
             </button>
           </form>
           <article className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft">
-            <div className="relative h-full min-h-[22rem]">
+            <div className="relative h-full min-h-[22rem] bg-surface p-4">
               <Image
-                src="/images/organisation/delegue-regional-littoral-fabrice-mogoue.jpg"
-                alt="Représentation institutionnelle de la P.I.G"
+                src="/images/contacts/chargee-relations-publiques-simone-daniella-yaker.jpg"
+                alt="Portrait de la chargée des relations publiques de la P.I.G"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </article>

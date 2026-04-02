@@ -20,6 +20,7 @@ const newsItems = [
     summary:
       "Une séquence visuelle consacrée à l’inauguration du nouveau siège national, illustrant la visibilité publique et l’ancrage institutionnel de l’organisation.",
     image: "/images/actualites/inauguration-siege-baham-1.jpg",
+    imageFit: "contain",
   },
   {
     title: "Réunion stratégique des responsables en 2025",
@@ -27,6 +28,7 @@ const newsItems = [
     summary:
       "Des sessions de travail interne ont permis de consolider l’orientation opérationnelle, la coordination et le suivi des priorités.",
     image: "/images/actualites/reunion-strategique-2025-1.jpg",
+    imageFit: "contain",
   },
   {
     title: "Séance institutionnelle au siège national avec les cadres du MINAT",
@@ -34,6 +36,7 @@ const newsItems = [
     summary:
       "La documentation visuelle témoigne d’un cadre de dialogue et de représentation au sein du siège national en 2024.",
     image: "/images/hero/siege-national-cadres-minat-2024.jpg",
+    imageFit: "cover",
   },
 ];
 

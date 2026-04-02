@@ -12,12 +12,12 @@ export function LeadershipSection() {
       />
       <div className="mt-12 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-card">
-          <div className="relative h-full min-h-[22rem]">
+          <div className="relative h-full min-h-[22rem] bg-surface p-4">
             <Image
               src="/images/leadership/trois-premiers-hauts-commissaires-1998-2024.jpg"
               alt="Repères historiques des hauts commissaires de la P.I.G"
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </div>

@@ -23,7 +23,7 @@ export default function ActionsPage() {
         ]}
       />
       <ImageBanner
-        image="/images/actions/protection-consommateurs-terrain.jpg"
+        image="/images/actions/suivi-minat-2024-2.jpg"
         title="Des domaines d’intervention ancrés dans le terrain et la responsabilité"
         description="Les actions documentées dans le dossier montrent une organisation présente sur la prévention, la coordination, la protection et l’encadrement institutionnel."
       />

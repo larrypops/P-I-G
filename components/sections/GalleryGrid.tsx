@@ -11,6 +11,8 @@ type GalleryItem = {
   alt: string;
   category: string;
   title: string;
+  fit?: "cover" | "contain";
+  position?: string;
 };
 
 type GalleryGridProps = {
@@ -72,7 +74,11 @@ export function GalleryGrid({ items, withFilters = true }: GalleryGridProps) {
                 src={item.src}
                 alt={item.alt}
                 fill
-                className="object-cover transition duration-500 group-hover:scale-105"
+                className={cn(
+                  "transition duration-500 group-hover:scale-105",
+                  item.fit === "contain" ? "object-contain bg-surface p-4" : "object-cover",
+                )}
+                style={{ objectPosition: item.position ?? "center" }}
               />
             </div>
             <div className="p-5">
@@ -107,7 +113,13 @@ export function GalleryGrid({ items, withFilters = true }: GalleryGridProps) {
                 <X className="h-5 w-5" />
               </button>
               <div className="relative h-[70vh] max-h-[52rem] min-h-[20rem]">
-                <Image src={selectedItem.src} alt={selectedItem.alt} fill className="object-contain" />
+                <Image
+                  src={selectedItem.src}
+                  alt={selectedItem.alt}
+                  fill
+                  className="object-contain"
+                  style={{ objectPosition: selectedItem.position ?? "center" }}
+                />
               </div>
               <div className="border-t border-border p-5">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-secondary">

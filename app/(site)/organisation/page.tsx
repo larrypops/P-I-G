@@ -28,6 +28,7 @@ export default function OrganisationPage() {
         image="/images/leadership/trois-premiers-hauts-commissaires-1998-2024.jpg"
         title="Une gouvernance institutionnelle lisible et progressive"
         description="La P.I.G articule sa direction générale, ses organes, ses départements et sa hiérarchie autour d’un cadre structuré et identifiable."
+        imageFit="contain"
       />
       <LeadershipSection />
       <OrgChartSection />
@@ -44,8 +45,8 @@ export default function OrganisationPage() {
               key={person.name}
               className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
             >
-              <div className="relative h-80">
-                <Image src={person.image} alt={person.name} fill className="object-cover" />
+              <div className="relative h-80 bg-surface p-4">
+                <Image src={person.image} alt={person.name} fill className="object-contain" />
               </div>
               <div className="p-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">

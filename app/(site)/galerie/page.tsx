@@ -53,18 +53,21 @@ const galleryItems = [
     alt: "Chargée des relations publiques de la P.I.G",
     category: "Portraits",
     title: "Chargée des relations publiques",
+    fit: "contain",
   },
   {
     src: "/images/galerie/premier-haut-commissaire-nebot-etienne.jpg",
     alt: "Premier Haut Commissaire Général NEBOT Etienne",
     category: "Historique",
     title: "Premier Haut Commissaire Général",
+    fit: "contain",
   },
   {
     src: "/images/galerie/trois-premiers-hauts-commissaires-1998-2024.jpg",
     alt: "Trois premiers hauts commissaires de la P.I.G",
     category: "Historique",
     title: "Repères historiques des hauts commissaires",
+    fit: "contain",
   },
   ...Array.from({ length: 7 }, (_, index) => ({
     src: `/images/galerie/reunion-strategique-2025-${index + 1}.jpg`,
@@ -90,7 +93,7 @@ export default function GalleryPage() {
         ]}
       />
       <ImageBanner
-        image="/images/actualites/reunion-strategique-2025-3.jpg"
+        image="/images/actualites/reunion-strategique-2025-2.jpg"
         title="Galerie institutionnelle"
         description="Un espace visuel sobre pour parcourir les portraits, les temps forts et les scènes institutionnelles documentés dans le dossier source."
       />
