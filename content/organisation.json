@@ -6,7 +6,7 @@
       "title": "Direction générale",
       "position": "Haut Commissaire Général",
       "description": "Assure la conduite stratégique, la représentation institutionnelle et l’orientation générale de la P.I.G.",
-      "image": null,
+      "image": "/images/organisation/p1.jpg",
       "featured": true,
       "priority": 1
     },
@@ -15,34 +15,18 @@
       "title": "Direction générale",
       "position": "Vice Haut Commissaire actuel",
       "description": "Appuie la direction générale actuelle et le déploiement des priorités opérationnelles et pluridisciplinaires.",
-      "image": null,
+      "image": "/images/organisation/p2.jpg",
       "featured": true,
       "priority": 2
     }
   ],
   "bureauMembers": [
     {
-      "name": "Hon Dr TAPE DZUDIE JEAN MARIE",
-      "title": "Bureau exécutif",
-      "position": "Haut Commissaire Général",
-      "description": "Pilotage stratégique et représentation institutionnelle.",
-      "image": null,
-      "priority": 1
-    },
-    {
-      "name": "MEHOUNE NKONO HONORÉ",
-      "title": "Bureau exécutif",
-      "position": "Vice Haut Commissaire actuel",
-      "description": "Appui opérationnel, coordination pluridisciplinaire et relais de la direction générale.",
-      "image": null,
-      "priority": 2
-    },
-    {
       "name": "MECHACK MARDOCHÉE LOCK YAKER",
       "title": "Bureau exécutif",
       "position": "Secrétaire Général",
       "description": "Coordination administrative, suivi des dossiers institutionnels et organisation des travaux du bureau.",
-      "image": null,
+      "image": "/images/organisation/p5.jpg",
       "priority": 3
     },
     {
@@ -50,31 +34,16 @@
       "title": "Bureau exécutif",
       "position": "Adjoint au Secrétaire Général",
       "description": "Appui à la coordination administrative, au suivi des opérations et à la continuité des travaux du secrétariat.",
-      "image": null,
+      "image": "/images/organisation/p3.jpg",
       "priority": 4
     },
-    {
-      "name": "À définir",
-      "title": "Bureau exécutif",
-      "position": "Trésorier Général",
-      "description": "Supervision financière et traçabilité de gestion.",
-      "image": null,
-      "priority": 5
-    },
-    {
-      "name": "À définir",
-      "title": "Bureau exécutif",
-      "position": "Commissaire aux comptes",
-      "description": "Contrôle et conformité des procédures financières.",
-      "image": null,
-      "priority": 6
-    },
+    
     {
       "name": "ADAM SERGE GUSTAVE",
       "title": "Bureau exécutif",
       "position": "Commissaire aux Comptes No 2",
       "description": "Vérification, audit interne et suivi de conformité au sein du bureau exécutif.",
-      "image": null,
+      "image": "/images/organisation/p6.jpg",
       "priority": 7
     },
     {
@@ -82,7 +51,7 @@
       "title": "Bureau exécutif",
       "position": "Chargé de la communication",
       "description": "Pilotage de la communication institutionnelle et valorisation des prises de parole de l’organisation.",
-      "image": null,
+      "image": "/images/organisation/p4.jpg",
       "priority": 8
     },
     {
