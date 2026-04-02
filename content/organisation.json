@@ -6,7 +6,7 @@
       "title": "Direction générale",
       "position": "Haut Commissaire Général",
       "description": "Assure la conduite stratégique, la représentation institutionnelle et l’orientation générale de la P.I.G.",
-      "image": "/images/organisation/p1.jpg",
+      "image": "/images/organisation/p1.JPG",
       "featured": true,
       "priority": 1
     },
@@ -15,7 +15,7 @@
       "title": "Direction générale",
       "position": "Vice Haut Commissaire actuel",
       "description": "Appuie la direction générale actuelle et le déploiement des priorités opérationnelles et pluridisciplinaires.",
-      "image": "/images/organisation/p2.jpg",
+      "image": "/images/organisation/p2.JPG",
       "featured": true,
       "priority": 2
     }
@@ -26,7 +26,7 @@
       "title": "Bureau exécutif",
       "position": "Secrétaire Général",
       "description": "Coordination administrative, suivi des dossiers institutionnels et organisation des travaux du bureau.",
-      "image": "/images/organisation/p5.jpg",
+      "image": "/images/organisation/p5.JPG",
       "priority": 3
     },
     {
@@ -34,7 +34,7 @@
       "title": "Bureau exécutif",
       "position": "Adjoint au Secrétaire Général",
       "description": "Appui à la coordination administrative, au suivi des opérations et à la continuité des travaux du secrétariat.",
-      "image": "/images/organisation/p3.jpg",
+      "image": "/images/organisation/p3.JPG",
       "priority": 4
     },
     
@@ -43,7 +43,7 @@
       "title": "Bureau exécutif",
       "position": "Commissaire aux Comptes No 2",
       "description": "Vérification, audit interne et suivi de conformité au sein du bureau exécutif.",
-      "image": "/images/organisation/p6.jpg",
+      "image": "/images/organisation/p6.JPG",
       "priority": 7
     },
     {
@@ -51,7 +51,7 @@
       "title": "Bureau exécutif",
       "position": "Chargé de la communication",
       "description": "Pilotage de la communication institutionnelle et valorisation des prises de parole de l’organisation.",
-      "image": "/images/organisation/p4.jpg",
+      "image": "/images/organisation/p4.JPG",
       "priority": 8
     },
     {
