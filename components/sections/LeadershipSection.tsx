@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { governance } from "@/content/organisation";
+import { bureauMembers, directionGeneral } from "@/content/organisation";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function LeadershipSection() {
@@ -22,7 +22,7 @@ export function LeadershipSection() {
           </div>
         </div>
         <div className="grid gap-6">
-          {governance.directionGeneral.map((leader) => (
+          {directionGeneral.map((leader) => (
             <article
               key={`${leader.position}-${leader.name}`}
               className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
@@ -70,9 +70,9 @@ export function LeadershipSection() {
               peuvent être complétés avec leur nom, leur poste, leur description et leur photo.
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
-              {governance.bureauMembers.map((member) => (
+              {bureauMembers.map((member) => (
                 <article
-                  key={`${member.position}-${member.name}`}
+                  key={`${member.priority ?? 999}-${member.position}-${member.name}`}
                   className="rounded-2xl border border-border bg-white p-4"
                 >
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary">

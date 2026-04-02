@@ -7,7 +7,8 @@
       "position": "Haut Commissaire Général",
       "description": "Assure la conduite stratégique, la représentation institutionnelle et l’orientation générale de la P.I.G.",
       "image": null,
-      "featured": true
+      "featured": true,
+      "priority": 1
     },
     {
       "name": "MEHOUNE NKONO HONORÉ",
@@ -15,7 +16,8 @@
       "position": "Vice Haut Commissaire Général",
       "description": "Appuie la direction générale et le déploiement des priorités opérationnelles et pluridisciplinaires.",
       "image": null,
-      "featured": true
+      "featured": true,
+      "priority": 2
     }
   ],
   "bureauMembers": [
@@ -24,63 +26,72 @@
       "title": "Bureau exécutif",
       "position": "Haut Commissaire Général",
       "description": "Pilotage stratégique et représentation institutionnelle.",
-      "image": null
+      "image": null,
+      "priority": 1
     },
     {
       "name": "MEHOUNE NKONO HONORÉ",
       "title": "Bureau exécutif",
       "position": "Vice Haut Commissaire Général",
       "description": "Appui opérationnel et coordination pluridisciplinaire.",
-      "image": null
+      "image": null,
+      "priority": 2
     },
     {
       "name": "À définir",
       "title": "Bureau exécutif",
       "position": "Secrétaire Général",
       "description": "Coordination administrative et suivi des dossiers institutionnels.",
-      "image": null
+      "image": null,
+      "priority": 3
     },
     {
       "name": "À définir",
       "title": "Bureau exécutif",
       "position": "Adjoint au Secrétaire Général",
       "description": "Appui à la coordination administrative et aux opérations de suivi.",
-      "image": null
+      "image": null,
+      "priority": 4
     },
     {
       "name": "À définir",
       "title": "Bureau exécutif",
       "position": "Trésorier Général",
       "description": "Supervision financière et traçabilité de gestion.",
-      "image": null
+      "image": null,
+      "priority": 5
     },
     {
       "name": "À définir",
       "title": "Bureau exécutif",
       "position": "Commissaire aux comptes",
       "description": "Contrôle et conformité des procédures financières.",
-      "image": null
+      "image": null,
+      "priority": 6
     },
     {
       "name": "À définir",
       "title": "Bureau exécutif",
       "position": "Commissaire aux comptes",
       "description": "Vérification, audit interne et suivi de conformité.",
-      "image": null
+      "image": null,
+      "priority": 7
     },
     {
       "name": "À définir",
       "title": "Bureau exécutif",
       "position": "Chargé de la communication",
       "description": "Pilotage de la communication institutionnelle.",
-      "image": null
+      "image": null,
+      "priority": 8
     },
     {
       "name": "YAKER EKALL Simone Daniella",
       "title": "Bureau exécutif",
       "position": "Chargée des relations publiques",
       "description": "Interface de contact, d’image institutionnelle et de relations publiques.",
-      "image": "/images/contacts/chargee-relations-publiques-simone-daniella-yaker.jpg"
+      "image": "/images/contacts/chargee-relations-publiques-simone-daniella-yaker.jpg",
+      "priority": 9
     }
   ],
   "organs": [

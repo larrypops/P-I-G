@@ -7,6 +7,7 @@ export type BureauMember = {
   description: string;
   image: string | null;
   featured?: boolean;
+  priority?: number;
 };
 
 export type Department = {
@@ -35,3 +36,11 @@ export const governance = organisationData as {
   hierarchy: HierarchyGroup[];
   territorialRepresentation: TerritorialMember[];
 };
+
+export const directionGeneral = [...governance.directionGeneral].sort(
+  (a, b) => (a.priority ?? 999) - (b.priority ?? 999),
+);
+
+export const bureauMembers = [...governance.bureauMembers].sort(
+  (a, b) => (a.priority ?? 999) - (b.priority ?? 999),
+);

@@ -5,7 +5,7 @@ import { LeadershipSection } from "@/components/sections/LeadershipSection";
 import { OrgChartSection } from "@/components/sections/OrgChartSection";
 import { TimelineSection } from "@/components/sections/TimelineSection";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { governance } from "@/content/organisation";
+import { bureauMembers, governance } from "@/content/organisation";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
@@ -38,9 +38,9 @@ export default function OrganisationPage() {
           description="Cette grille reprend les membres déclarés dans la source de données de gouvernance. Il suffit d’y renseigner le nom, le titre, le poste, la description et l’image."
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {governance.bureauMembers.map((member) => (
+          {bureauMembers.map((member) => (
             <article
-              key={`${member.position}-${member.name}-organisation`}
+              key={`${member.priority ?? 999}-${member.position}-${member.name}-organisation`}
               className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
             >
               <div className="relative h-72 bg-surface p-4">
