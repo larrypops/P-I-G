@@ -43,7 +43,7 @@ export default function OrganisationPage() {
               key={`${member.priority ?? 999}-${member.position}-${member.name}-organisation`}
               className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
             >
-              <div className="relative h-72 bg-surface p-4">
+              <div className="relative aspect-[3/4] bg-surface p-4 sm:h-72 sm:aspect-auto">
                 {member.image ? (
                   <Image src={member.image} alt={member.name} fill className="object-contain" />
                 ) : (
@@ -86,7 +86,7 @@ export default function OrganisationPage() {
               key={person.name}
               className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
             >
-              <div className="relative h-80 bg-surface p-4">
+              <div className="relative aspect-[3/4] bg-surface p-4 sm:h-80 sm:aspect-auto">
                 <Image src={person.image} alt={person.name} fill className="object-contain" />
               </div>
               <div className="p-6">

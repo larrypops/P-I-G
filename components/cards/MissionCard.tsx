@@ -20,8 +20,8 @@ export function MissionCard({
     <article className="group overflow-hidden rounded-[2rem] border border-border bg-white shadow-card transition-transform duration-300 hover:-translate-y-1">
       <div
         className={cn(
-          "relative aspect-[4/3] overflow-hidden sm:h-56 sm:aspect-auto",
-          imageFit === "contain" ? "bg-surface p-3 sm:p-4" : "",
+          "relative aspect-[3/4] overflow-hidden bg-surface sm:h-56 sm:aspect-auto",
+          imageFit === "contain" ? "p-3 sm:p-4" : "p-2 sm:p-0",
         )}
       >
         <Image
@@ -30,7 +30,9 @@ export function MissionCard({
           fill
           className={cn(
             "transition duration-500 group-hover:scale-105",
-            imageFit === "contain" ? "object-contain" : "object-cover",
+            imageFit === "contain"
+              ? "object-contain"
+              : "object-contain sm:object-cover",
           )}
           style={{ objectPosition: imagePosition }}
         />

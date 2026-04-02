@@ -69,14 +69,16 @@ export function GalleryGrid({ items, withFilters = true }: GalleryGridProps) {
             onClick={() => setSelectedIndex(index)}
             className="group overflow-hidden rounded-[1.75rem] border border-border bg-white text-left shadow-soft"
           >
-            <div className="relative aspect-[4/5] overflow-hidden sm:h-72 sm:aspect-auto">
+            <div className="relative aspect-[3/4] overflow-hidden bg-surface sm:h-72 sm:aspect-auto">
               <Image
                 src={item.src}
                 alt={item.alt}
                 fill
                 className={cn(
                   "transition duration-500 group-hover:scale-105",
-                  item.fit === "contain" ? "object-contain bg-surface p-3 sm:p-4" : "object-cover",
+                  item.fit === "contain"
+                    ? "object-contain p-3 sm:p-4"
+                    : "object-contain p-2 sm:object-cover sm:p-0",
                 )}
                 style={{ objectPosition: item.position ?? "center" }}
               />

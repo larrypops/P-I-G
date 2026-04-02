@@ -22,15 +22,19 @@ export function NewsCard({
     <article className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-card">
       <div
         className={cn(
-          "relative aspect-[4/3] sm:h-64 sm:aspect-auto",
-          imageFit === "contain" ? "bg-surface p-3 sm:p-4" : "",
+          "relative aspect-[3/4] bg-surface sm:h-64 sm:aspect-auto",
+          imageFit === "contain" ? "p-3 sm:p-4" : "p-2 sm:p-0",
         )}
       >
         <Image
           src={image}
           alt={title}
           fill
-          className={cn(imageFit === "contain" ? "object-contain" : "object-cover")}
+          className={cn(
+            imageFit === "contain"
+              ? "object-contain"
+              : "object-contain sm:object-cover",
+          )}
           style={{ objectPosition: imagePosition }}
         />
       </div>
