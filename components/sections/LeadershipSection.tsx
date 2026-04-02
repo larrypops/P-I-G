@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { bureauMembers, directionGeneral } from "@/content/organisation";
+import { bureauMembers, directionGeneral, governance } from "@/content/organisation";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function LeadershipSection() {
@@ -70,7 +70,7 @@ export function LeadershipSection() {
               peuvent être complétés avec leur nom, leur poste, leur description et leur photo.
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
-              {bureauMembers.map((member) => (
+              {bureauMembers.slice(0, 6).map((member) => (
                 <article
                   key={`${member.priority ?? 999}-${member.position}-${member.name}`}
                   className="rounded-2xl border border-border bg-white p-4"
@@ -86,6 +86,62 @@ export function LeadershipSection() {
             </div>
           </article>
         </div>
+      </div>
+      <div className="mt-10 grid gap-6 lg:grid-cols-2">
+        <article className="rounded-[2rem] border border-border bg-white p-7 shadow-soft">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
+            Bureau étendu
+          </p>
+          <div className="mt-5 grid gap-4">
+            {bureauMembers.slice(6).map((member) => (
+              <div
+                key={`${member.priority ?? 999}-${member.position}-${member.name}-extended`}
+                className="grid gap-4 rounded-2xl border border-border bg-surface p-4 md:grid-cols-[4.5rem_1fr] md:items-center"
+              >
+                <div className="relative h-[4.5rem] overflow-hidden rounded-2xl border border-border bg-white">
+                  {member.image ? (
+                    <Image src={member.image} alt={member.name} fill className="object-cover" />
+                  ) : (
+                    <div className="flex h-full items-center justify-center p-2">
+                      <Image
+                        src="/images/logo/pig-embleme-or.jpg"
+                        alt="Emblème de la P.I.G"
+                        width={48}
+                        height={40}
+                        className="h-auto w-10 object-contain opacity-90"
+                      />
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <h4 className="text-base font-semibold text-ink">{member.name}</h4>
+                  <p className="mt-1 text-sm font-medium text-ink">{member.position}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+        <article className="rounded-[2rem] border border-border bg-white p-7 shadow-soft">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
+            Représentation territoriale
+          </p>
+          <div className="mt-5 grid gap-4">
+            {governance.territorialRepresentation.map((delegate) => (
+              <div
+                key={delegate.name}
+                className="grid gap-4 rounded-2xl border border-border bg-surface p-4 md:grid-cols-[5rem_1fr] md:items-center"
+              >
+                <div className="relative h-20 overflow-hidden rounded-2xl border border-border bg-white">
+                  <Image src={delegate.image} alt={delegate.name} fill className="object-contain" />
+                </div>
+                <div>
+                  <h4 className="text-base font-semibold text-ink">{delegate.name}</h4>
+                  <p className="mt-1 text-sm font-medium text-ink">{delegate.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
       </div>
     </section>
   );

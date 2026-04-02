@@ -13,8 +13,8 @@
     {
       "name": "MEHOUNE NKONO HONORÉ",
       "title": "Direction générale",
-      "position": "Vice Haut Commissaire Général",
-      "description": "Appuie la direction générale et le déploiement des priorités opérationnelles et pluridisciplinaires.",
+      "position": "Vice Haut Commissaire actuel",
+      "description": "Appuie la direction générale actuelle et le déploiement des priorités opérationnelles et pluridisciplinaires.",
       "image": null,
       "featured": true,
       "priority": 2
@@ -32,24 +32,24 @@
     {
       "name": "MEHOUNE NKONO HONORÉ",
       "title": "Bureau exécutif",
-      "position": "Vice Haut Commissaire Général",
-      "description": "Appui opérationnel et coordination pluridisciplinaire.",
+      "position": "Vice Haut Commissaire actuel",
+      "description": "Appui opérationnel, coordination pluridisciplinaire et relais de la direction générale.",
       "image": null,
       "priority": 2
     },
     {
-      "name": "À définir",
+      "name": "MECHACK MARDOCHÉE LOCK YAKER",
       "title": "Bureau exécutif",
       "position": "Secrétaire Général",
-      "description": "Coordination administrative et suivi des dossiers institutionnels.",
+      "description": "Coordination administrative, suivi des dossiers institutionnels et organisation des travaux du bureau.",
       "image": null,
       "priority": 3
     },
     {
-      "name": "À définir",
+      "name": "ATEBA ELOUNA GARSON CHARLY",
       "title": "Bureau exécutif",
       "position": "Adjoint au Secrétaire Général",
-      "description": "Appui à la coordination administrative et aux opérations de suivi.",
+      "description": "Appui à la coordination administrative, au suivi des opérations et à la continuité des travaux du secrétariat.",
       "image": null,
       "priority": 4
     },
@@ -70,18 +70,18 @@
       "priority": 6
     },
     {
-      "name": "À définir",
+      "name": "ADAM SERGE GUSTAVE",
       "title": "Bureau exécutif",
-      "position": "Commissaire aux comptes",
-      "description": "Vérification, audit interne et suivi de conformité.",
+      "position": "Commissaire aux Comptes No 2",
+      "description": "Vérification, audit interne et suivi de conformité au sein du bureau exécutif.",
       "image": null,
       "priority": 7
     },
     {
-      "name": "À définir",
+      "name": "IDEKU JOSEPH ARSÈNE",
       "title": "Bureau exécutif",
       "position": "Chargé de la communication",
-      "description": "Pilotage de la communication institutionnelle.",
+      "description": "Pilotage de la communication institutionnelle et valorisation des prises de parole de l’organisation.",
       "image": null,
       "priority": 8
     },
