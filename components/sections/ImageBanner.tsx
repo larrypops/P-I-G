@@ -19,8 +19,13 @@ export function ImageBanner({
   return (
     <section className="mx-auto max-w-7xl px-6 py-10">
       <div className="relative overflow-hidden rounded-[2.5rem] border border-border">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#08111f]/85 via-[#08111f]/45 to-transparent" />
-        <div className={cn("relative h-[28rem] w-full", imageFit === "contain" ? "bg-surface p-6" : "")}>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#08111f]/88 via-[#08111f]/42 to-transparent sm:bg-gradient-to-r" />
+        <div
+          className={cn(
+            "relative h-[22rem] w-full sm:h-[28rem]",
+            imageFit === "contain" ? "bg-surface p-4 sm:p-6" : "",
+          )}
+        >
           <Image
             src={image}
             alt={title}
@@ -29,10 +34,14 @@ export function ImageBanner({
             style={{ objectPosition: imagePosition }}
           />
         </div>
-        <div className="absolute inset-0 flex items-end p-8 sm:p-12">
+        <div className="absolute inset-0 flex items-end p-5 sm:p-12">
           <div className="max-w-2xl text-white">
-            <h2 className="font-display text-4xl font-semibold sm:text-5xl">{title}</h2>
-            <p className="mt-4 text-base leading-7 text-white/85">{description}</p>
+            <h2 className="font-display text-3xl font-semibold leading-tight sm:text-5xl">
+              {title}
+            </h2>
+            <p className="mt-3 max-w-xl text-sm leading-6 text-white/85 sm:mt-4 sm:text-base sm:leading-7">
+              {description}
+            </p>
           </div>
         </div>
       </div>

@@ -20,8 +20,8 @@ export function MissionCard({
     <article className="group overflow-hidden rounded-[2rem] border border-border bg-white shadow-card transition-transform duration-300 hover:-translate-y-1">
       <div
         className={cn(
-          "relative h-56 overflow-hidden",
-          imageFit === "contain" ? "bg-surface p-4" : "",
+          "relative aspect-[4/3] overflow-hidden sm:h-56 sm:aspect-auto",
+          imageFit === "contain" ? "bg-surface p-3 sm:p-4" : "",
         )}
       >
         <Image

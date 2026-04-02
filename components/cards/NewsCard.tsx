@@ -20,7 +20,12 @@ export function NewsCard({
 }: NewsCardProps) {
   return (
     <article className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-card">
-      <div className={cn("relative h-64", imageFit === "contain" ? "bg-surface p-4" : "")}>
+      <div
+        className={cn(
+          "relative aspect-[4/3] sm:h-64 sm:aspect-auto",
+          imageFit === "contain" ? "bg-surface p-3 sm:p-4" : "",
+        )}
+      >
         <Image
           src={image}
           alt={title}

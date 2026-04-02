@@ -12,7 +12,7 @@ export function LeadershipSection() {
       />
       <div className="mt-12 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-card">
-          <div className="relative h-full min-h-[22rem] bg-surface p-4">
+          <div className="relative min-h-[16rem] bg-surface p-4 sm:min-h-[22rem]">
             <Image
               src="/images/leadership/trois-premiers-hauts-commissaires-1998-2024.jpg"
               alt="Repères historiques des hauts commissaires de la P.I.G"
@@ -27,14 +27,14 @@ export function LeadershipSection() {
               key={`${leader.position}-${leader.name}`}
               className="overflow-hidden rounded-[2rem] border border-border bg-white shadow-soft"
             >
-              <div className="grid gap-6 p-7 md:grid-cols-[10rem_1fr] md:items-center">
-                <div className="relative h-48 overflow-hidden rounded-[1.5rem] border border-border bg-surface">
+              <div className="grid gap-5 p-5 sm:p-7 md:grid-cols-[10rem_1fr] md:items-center">
+                <div className="relative h-56 overflow-hidden rounded-[1.5rem] border border-border bg-surface md:h-48">
                   {leader.image ? (
                     <Image
                       src={leader.image}
                       alt={leader.name}
                       fill
-                      className="object-cover"
+                      className="object-contain md:object-cover"
                     />
                   ) : (
                     <div className="flex h-full items-center justify-center p-5">
@@ -98,9 +98,14 @@ export function LeadershipSection() {
                 key={`${member.priority ?? 999}-${member.position}-${member.name}-extended`}
                 className="grid gap-4 rounded-2xl border border-border bg-surface p-4 md:grid-cols-[4.5rem_1fr] md:items-center"
               >
-                <div className="relative h-[4.5rem] overflow-hidden rounded-2xl border border-border bg-white">
+                <div className="relative h-28 overflow-hidden rounded-2xl border border-border bg-white md:h-[4.5rem]">
                   {member.image ? (
-                    <Image src={member.image} alt={member.name} fill className="object-cover" />
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-contain md:object-cover"
+                    />
                   ) : (
                     <div className="flex h-full items-center justify-center p-2">
                       <Image
@@ -131,7 +136,7 @@ export function LeadershipSection() {
                 key={delegate.name}
                 className="grid gap-4 rounded-2xl border border-border bg-surface p-4 md:grid-cols-[5rem_1fr] md:items-center"
               >
-                <div className="relative h-20 overflow-hidden rounded-2xl border border-border bg-white">
+                <div className="relative h-28 overflow-hidden rounded-2xl border border-border bg-white md:h-20">
                   <Image src={delegate.image} alt={delegate.name} fill className="object-contain" />
                 </div>
                 <div>
