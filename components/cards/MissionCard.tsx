@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-type MissionCardProps = {
+export type MissionCardProps = {
   title: string;
   description: string;
   image: string;

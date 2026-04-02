@@ -1,4 +1,10 @@
-export const missions = [
+import type { MissionCardProps } from "@/components/cards/MissionCard";
+
+export type MissionItem = MissionCardProps & {
+  slug: string;
+};
+
+export const missions: MissionItem[] = [
   {
     slug: "droits-humains",
     title: "Protection des droits humains",
