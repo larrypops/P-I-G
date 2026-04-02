@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-type NewsCardProps = {
+export type NewsCardProps = {
   category: string;
   title: string;
   summary: string;

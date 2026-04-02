@@ -1,7 +1,7 @@
 import Script from "next/script";
 import { BreadcrumbJsonLd } from "@/components/layout/BreadcrumbJsonLd";
 import { ImageBanner } from "@/components/sections/ImageBanner";
-import { NewsCard } from "@/components/cards/NewsCard";
+import { NewsCard, type NewsCardProps } from "@/components/cards/NewsCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { jsonLd, createPageMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/content/site";
@@ -13,7 +13,7 @@ export const metadata = createPageMetadata({
   path: "/actualites",
 });
 
-const newsItems = [
+const newsItems: NewsCardProps[] = [
   {
     title: "Inauguration du nouveau siège national à Baham",
     category: "Événement institutionnel",
