@@ -1,6 +1,6 @@
 import { BreadcrumbJsonLd } from "@/components/layout/BreadcrumbJsonLd";
 import { ImageBanner } from "@/components/sections/ImageBanner";
-import { GalleryGrid } from "@/components/sections/GalleryGrid";
+import { GalleryGrid, type GalleryItem } from "@/components/sections/GalleryGrid";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { createPageMetadata } from "@/lib/metadata";
 
@@ -11,7 +11,7 @@ export const metadata = createPageMetadata({
   path: "/galerie",
 });
 
-const galleryItems = [
+const galleryItems: GalleryItem[] = [
   {
     src: "/images/galerie/siege-national-cadres-minat-2024.jpg",
     alt: "Séance photo institutionnelle au siège national avec les cadres du MINAT",

@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-type GalleryItem = {
+export type GalleryItem = {
   src: string;
   alt: string;
   category: string;
