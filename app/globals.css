@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8f6b15;
+  --color-secondary: #c99f3b;
+  --color-accent: #e4cb84;
+  --color-neutral: #f7f4ee;
+  --color-surface: #fbf8f1;
+  --color-border: #e6ddca;
+  --color-success: #2f7d5a;
+  --color-warning: #b9771f;
+  --color-ink: #0f172a;
+  --color-muted: #516072;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(251, 248, 241, 0.9), rgba(255, 255, 255, 1)),
+    #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 8rem);
+}
+
+::selection {
+  background: rgba(201, 159, 59, 0.22);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), serif;
+  }
+
+  a,
+  button,
+  input,
+  textarea {
+    @apply transition;
+  }
+}
+
+@layer utilities {
+  .section-shell {
+    @apply mx-auto max-w-7xl px-6 py-20;
+  }
+}
