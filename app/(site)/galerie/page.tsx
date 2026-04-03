@@ -95,7 +95,7 @@ export default function GalleryPage() {
       <ImageBanner
         image="/images/actualites/reunion-strategique-2025-2.jpg"
         title="Galerie institutionnelle"
-        description="Un espace visuel sobre pour parcourir les portraits, les temps forts et les scènes institutionnelles documentés dans le dossier source."
+        description="Un espace visuel sobre pour parcourir les portraits, les temps forts et les scènes marquantes de la vie institutionnelle."
       />
       <section className="section-shell">
         <SectionHeading

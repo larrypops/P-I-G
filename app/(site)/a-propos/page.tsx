@@ -75,7 +75,7 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="Reconnaissance"
           title="Repères de reconnaissance et d’homologation"
-          description="Les éléments ci-dessous reprennent les références mentionnées dans le dossier source, avec une présentation éditoriale sobre."
+          description="Les références ci-dessous synthétisent les principaux repères de reconnaissance institutionnelle mentionnés dans la documentation de l’organisation."
         />
         <div className="mt-12 grid gap-4">
           {recognitions.map((item) => (

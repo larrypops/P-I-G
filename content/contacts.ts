@@ -20,7 +20,7 @@ export const contacts = {
       role: "Accueil institutionnel",
       address: "Cameroun",
       phone: "+237 621 690 407 / +237 696 826 089 / +237 674 486 315",
-      email: "Contact par coordination téléphonique",
+      email: "Coordination disponible par accueil téléphonique",
     },
   ],
 };

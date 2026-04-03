@@ -32,7 +32,7 @@ export default function ContactPage() {
         <SectionHeading
           eyebrow="Formulaire"
           title="Prise de contact"
-          description="Ce formulaire est présenté côté interface pour préparer les échanges. Il peut être relié plus tard à un backend ou à un service d’email."
+          description="Ce formulaire permet de préparer une prise de contact claire, structurée et orientée vers le bon interlocuteur."
         />
         <div className="mt-12 grid gap-8 lg:grid-cols-[1fr_0.8fr]">
           <form className="rounded-[2rem] border border-border bg-white p-8 shadow-soft">
