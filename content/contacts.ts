@@ -19,7 +19,7 @@ export const contacts = {
       contact: "YAKER EKALL Simone Daniella",
       role: "Chargée des relations publiques",
       address: "27 Rue de Unna, 91120 Palaiseau, France",
-      phone: "+33 6 66 22 07 64",
+      phone: "+33 6 68 73 42 50",
       email: "contact@policeinternationaledinterventiongeneral.com",
     },
   ],
