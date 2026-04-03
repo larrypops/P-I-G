@@ -28,7 +28,7 @@ export function LeadershipSection() {
                 <div className="flex h-full items-center justify-center">
                   <Image
                     src="/images/logo/pig-embleme-or.jpg"
-                    alt="Emblème de la P.I.G en attente du portrait officiel"
+                    alt="Emblème officiel de la P.I.G"
                     width={170}
                     height={144}
                     className="h-auto w-32 object-contain opacity-90 sm:w-40"
@@ -59,8 +59,9 @@ export function LeadershipSection() {
             Un bureau structuré autour des fonctions de coordination et d’appui
           </h3>
           <p className="mt-3 max-w-3xl leading-7 text-muted">
-            Les membres du bureau sont définis dans le fichier JSON de gouvernance et
-            peuvent être complétés avec leur nom, leur poste, leur description et leur photo.
+            Le bureau exécutif réunit les fonctions de pilotage, de coordination, de
+            contrôle et de représentation nécessaires à la continuité institutionnelle de
+            l’organisation.
           </p>
           <div className="mt-6 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
             {bureauMembers.map((member) => (
@@ -80,7 +81,7 @@ export function LeadershipSection() {
                     <div className="flex h-full items-center justify-center">
                       <Image
                         src="/images/logo/pig-embleme-or.jpg"
-                        alt="Emblème de la P.I.G"
+                        alt="Emblème officiel de la P.I.G"
                         width={120}
                         height={102}
                         className="h-auto w-24 object-contain opacity-90"
@@ -106,7 +107,7 @@ export function LeadershipSection() {
             Représentation territoriale
           </p>
           <h3 className="mt-3 font-display text-3xl font-semibold text-ink">
-            Des relais régionaux identifiés dans le dossier visuel
+            Des relais régionaux engagés dans la représentation territoriale
           </h3>
           <div className="mt-6 grid gap-5 md:grid-cols-2">
             {governance.territorialRepresentation.map((delegate) => (
