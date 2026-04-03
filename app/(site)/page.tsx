@@ -10,6 +10,7 @@ import { NewsCard } from "@/components/cards/NewsCard";
 import { LeadershipSection } from "@/components/sections/LeadershipSection";
 import { CTASection } from "@/components/sections/CTASection";
 import { TimelineSection } from "@/components/sections/TimelineSection";
+import { SpecializedCouncilsSection } from "@/components/sections/SpecializedCouncilsSection";
 import { RevealOnScroll } from "@/components/animations/RevealOnScroll";
 import { createPageMetadata } from "@/lib/metadata";
 
@@ -69,6 +70,7 @@ export default function HomePage() {
         </div>
       </section>
       <LeadershipSection />
+      <SpecializedCouncilsSection />
       <TimelineSection />
       <section className="section-shell">
         <SectionHeading
