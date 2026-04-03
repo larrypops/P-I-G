@@ -12,7 +12,7 @@ export const contacts = {
       role: "Chargée des relations publiques",
       address: "27 Rue de Unna, 91120 Palaiseau, France",
       phone: "+33 6 66 22 07 64",
-      email: "ydaniella@yahoo.fr",
+      email: "contact@policeinternationaledinterventiongeneral.com",
     },
     {
       name: "Bureau Afrique / Cameroun",
@@ -20,7 +20,7 @@ export const contacts = {
       role: "Accueil institutionnel",
       address: "Cameroun",
       phone: "+237 621 690 407 / +237 696 826 089 / +237 674 486 315",
-      email: "Coordination disponible par accueil téléphonique",
+      email: "contact@policeinternationaledinterventiongeneral.com",
     },
   ],
 };
